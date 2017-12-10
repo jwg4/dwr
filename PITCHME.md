@@ -17,4 +17,4 @@ Driving while relational - SQLite is the database that's in cars
 - don't choose Microsoft SQL server
 - don't even choose postgresql
 - don't choose XML
-- don't choose a custom binary
+- don't choose a custom binary format
