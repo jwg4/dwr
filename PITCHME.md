@@ -1,6 +1,5 @@
-# dwr
-Driving while relational - SQLite is the database that's in cars
-
+# Reasons to use SQLite
+An introduction to SQLite - the robust, lightweight, portable, relational database which is in (many) cars. 
 ---
 
 ## what is SQLite ?
