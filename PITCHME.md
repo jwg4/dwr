@@ -4,19 +4,23 @@ An introduction to SQLite - the robust, lightweight, portable, relational databa
 
 ## WHAT is SQLite ?
 - a SQL database
+- transactional, relational
 - serverless
 - contained in a single file
 - supported by almost every language
 - based on a small, reliable C library
 - backwards compatible
-- in cars
+
+---
+# WHERE is it installed?
+In cars. 
 
 ---
 ## WHY is it in cars?
-- don't choose Microsoft SQL server - your car doesn't have that much RAM
-- don't even choose postgresql - don't want to configure shared_buffer
-- don't choose XML - harder to read, harder to structure data
-- don't choose a custom binary format - guys in garages want to write to it
+- don't choose Microsoft SQL server - your car doesn't have that much RAM.
+- don't even choose postgresql - don't want to configure shared_buffer on a car.
+- don't choose XML - harder to read, harder to structure data.
+- don't choose a custom binary format - guys in garages want to write to it.
 
 ---
 ## HOW do I use SQLite?
@@ -47,3 +51,5 @@ If you create any kind of SQL database and
  - delete it after use.
  
 you should use SQLite.
+
+If you are creating a custom file format for your application to write to, you should use SQLite
