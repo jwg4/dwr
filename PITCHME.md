@@ -19,6 +19,14 @@ An introduction to SQLite - the robust, lightweight, portable, relational databa
 - don't choose a custom binary format - guys in garages want to write to it
 
 ---
+## HOW do I use SQLite?
+ - From any programming language
+ - module in core Python
+ - using a command line interface
+ - by multiple processes at once
+ - anyone who can read or write to your file
+ 
+---
 ## WHEN should I use SQLite?
 If you put some data in:
  - XML
