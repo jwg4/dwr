@@ -30,8 +30,12 @@ and you ever:
  - Send the data to someone
  - Throw it away after you've finished with it
  - Make a backup of today's version.
-you should use SQLite
+ 
+you should use SQLite.
 
 If you create any kind of SQL database and
+ - copy all the data from another SQL database
+ - write the whole database to a file
  - delete it after use.
-you should use SQLite
+ 
+you should use SQLite.
