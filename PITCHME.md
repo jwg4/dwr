@@ -2,7 +2,7 @@
 An introduction to SQLite - the robust, lightweight, portable, relational database which is in (many) cars. 
 ---
 
-## what is SQLite ?
+## WHAT is SQLite ?
 - a SQL database
 - serverless
 - contained in a single file
@@ -12,14 +12,14 @@ An introduction to SQLite - the robust, lightweight, portable, relational databa
 - in cars
 
 ---
-## How do you choose a database to install in a car?
-- don't choose Microsoft SQL server - it will crash your car.
-- don't even choose postgresql
-- don't choose XML
-- don't choose a custom binary format
+## WHY is it in cars?
+- don't choose Microsoft SQL server - your car doesn't have that much RAM
+- don't even choose postgresql - don't want to configure shared_buffer
+- don't choose XML - harder to read, harder to structure data
+- don't choose a custom binary format - guys in garages want to write to it
 
 ---
-## When should I use SQLite
+## WHEN should I use SQLite?
 If you put some data in:
  - XML
  - CSV
@@ -30,4 +30,8 @@ and you ever:
  - Send the data to someone
  - Throw it away after you've finished with it
  - Make a backup of today's version.
+you should use SQLite
+
+If you create any kind of SQL database and
+ - delete it after use.
 you should use SQLite
