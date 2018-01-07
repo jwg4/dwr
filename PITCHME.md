@@ -12,8 +12,8 @@ An introduction to SQLite - the robust, lightweight, portable, relational databa
 - backwards compatible
 
 ---
-# WHERE is it installed?
-In cars. 
+## WHERE is it installed?
+ - In cars. 
 
 ---
 ## WHY is it in cars?
@@ -54,6 +54,11 @@ If you create any kind of SQL database and
 you should use SQLite.
 
 If you are creating a custom file format for your application to write to, you should use SQLite
+
+--- 
+## Other cool stuff
+ - SQLite is very, very well tested: https://sqlite.org/testing.html
+ - SQLite is good for learning about database internals: https://sqlite.org/atomiccommit.html
 
 ---
 ## Links
