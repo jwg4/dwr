@@ -48,7 +48,12 @@ sqlite> INSERT INTO foo (value_1, value_2, value_3, value_4) VALUES (5556593, 3.
 sqlite> SELECT * FROM foo;
 |5556593|3.141592635589|ASDF asdf.|{"foo": "bar", "baz": 12345}
 ```
-
+@[1-2]cmd.exe may not be on your side
+@[3]Create a database that doesn't yet exist
+@[4-10]Create a table. 
+@[11-12]Put some stuff in it.
+@[13-14]Get the stuff out.
+@[9](SQLite doesn't have a JSONB format)
  
 ---
 ## WHEN should I use SQLite?
