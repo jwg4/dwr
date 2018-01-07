@@ -96,6 +96,7 @@ If you are creating a custom file format for your application to write to, you s
 ## Links
  - https://sqlite.org/
  - https://github.com/simonw/datasette
+ - https://github.com/jwg4/dwr/master/PITCHME.md - this talk
  - https://gitpitch.com/ GitPitch - how I made this talk
  
 
