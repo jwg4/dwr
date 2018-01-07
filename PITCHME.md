@@ -32,26 +32,53 @@ An introduction to SQLite - the robust, lightweight, portable, relational databa
  - with Datasette - an awesome project to wrap SQLite database with REST APIs
  
 ---
+## SQLite seems to be on your side
+```
+sqlite> .open C:\Users\jack\Documents\foo.db
+Error: unable to open database "C:UsersjackDocumentsoo.db": unable to open database file
+sqlite> .open C:/Users/jack/Documents/foo.db
+sqlite> CREATE TABLE foo (
+   ...>   id BIGSERIAL PRIMARY KEY,
+   ...>   value_1 INTEGER,
+   ...>   value_2 FLOAT,
+   ...>   value_3 CHARACTER(10),
+   ...>   value_4 JSONB
+   ...> );
+sqlite> INSERT INTO foo (value_1, value_2, value_3, value_4) VALUES (5556593, 3.141592635589, "ASDF asdf.", '{"foo": "bar", "baz": 12345}');
+sqlite> SELECT * FROM foo;
+|5556593|3.141592635589|ASDF asdf.|{"foo": "bar", "baz": 12345}
+```
+
+ 
+---
 ## WHEN should I use SQLite?
-If you put some data in:
- - XML
- - CSV
- - XLS/XLSX
- - ACCESS db
- - JSON?
-and you ever:
+If you put some data in XML/CSV/Excel/ACCESS and then:
  - Send the data to someone
  - Throw it away after you've finished with it
  - Make a backup of today's version.
  
 you should use SQLite.
 
+---
+## WHEN should I use SQLite? II
+If you have data in 
+ - YAML
+ - JSON
+ - XML
+
+and you want to add references or IDs to reduce repetition between subobjects, or do joins across different files, you should just cut your losses and install SQLite.
+
+---
+## WHEN should I use SQLite? III
 If you create any kind of SQL database and
  - copy all the data from another SQL database
  - write the whole database to a file
  - delete it after use.
  
 you should use SQLite.
+
+---
+## WHEN should I use SQLite? IV
 
 If you are creating a custom file format for your application to write to, you should use SQLite
 
