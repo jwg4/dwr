@@ -60,6 +60,7 @@ If you are creating a custom file format for your application to write to, you s
  - https://sqlite.org/
  - https://github.com/simonw/datasette
  - https://gitpitch.com/ GitPitch - how I made this talk
+ 
 
-### Thanks to Robert Hardy for setting up Full Stack Quants
+#### Thanks to Robert Hardy for setting up Full Stack Quants
 
