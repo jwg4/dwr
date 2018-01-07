@@ -29,6 +29,7 @@ In cars.
  - using a command line interface
  - by multiple processes at once
  - anyone who can read or write to your file
+ - with Datasette - an awesome project to wrap SQLite database with REST APIs
  
 ---
 ## WHEN should I use SQLite?
@@ -53,3 +54,16 @@ If you create any kind of SQL database and
 you should use SQLite.
 
 If you are creating a custom file format for your application to write to, you should use SQLite
+
+---
+## 
+
+ 
+---
+## Links
+ - https://sqlite.org/
+ - https://github.com/simonw/datasette
+ - https://gitpitch.com/ GitPitch - how I made this talk
+
+### Thanks to Robert Hardy for setting up Full Stack Quants
+
