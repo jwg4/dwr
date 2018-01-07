@@ -51,8 +51,8 @@ sqlite> SELECT * FROM foo;
 @[1-2]cmd.exe may not be on your side
 @[3]Create a database that doesn't yet exist
 @[4-10]Create a table. 
-@[11-12]Put some stuff in it.
-@[13-14]Get the stuff out.
+@[11]Put some stuff in it.
+@[12-13]Get the stuff out.
 @[9](SQLite doesn't have a JSONB format)
  
 ---
