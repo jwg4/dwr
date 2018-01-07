@@ -56,10 +56,6 @@ you should use SQLite.
 If you are creating a custom file format for your application to write to, you should use SQLite
 
 ---
-## 
-
- 
----
 ## Links
  - https://sqlite.org/
  - https://github.com/simonw/datasette
