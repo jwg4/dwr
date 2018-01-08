@@ -12,6 +12,7 @@ An introduction to SQLite - the robust, lightweight, portable, relational databa
 
 ---
 ## WHY is it in cars?
+- Small. Fast. Reliable. Choose any three.
 - Any amount of data can be structured.
 - Performs OK on embedded systems.
 - Almost 0 performance overhead.
@@ -80,7 +81,9 @@ you should use SQLite.
 ---
 ## Reasons to use SQLite? IV
 
-If you are creating a custom file format for your application to write to, you should use SQLite
+If you are creating a custom file format for your application to write to, you should use SQLite. 
+
+See https://sqlite.org/appfileformat.html and https://sqlite.org/affcase1.html
 
 --- 
 ## Other cool stuff
