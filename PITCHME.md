@@ -13,6 +13,7 @@ An introduction to SQLite - the robust, lightweight, portable, relational databa
 ---
 ## WHY is it in cars?
 > Small. Fast. Reliable. Choose any three.
+
 - Any amount of data can be structured.
 - Performs OK on embedded systems.
 - Almost 0 performance overhead.
