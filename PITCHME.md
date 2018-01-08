@@ -96,6 +96,7 @@ See https://sqlite.org/appfileformat.html and https://sqlite.org/affcase1.html
  - https://github.com/simonw/datasette
  - https://github.com/jwg4/dwr/blob/master/PITCHME.md - this talk
  - https://gitpitch.com/ GitPitch - how I made this talk
+ - https://daniel.haxx.se/blog/2016/11/14/i-have-toyota-corola/
  
 
 #### Thanks to Robert Hardy for Full Stack Quants
