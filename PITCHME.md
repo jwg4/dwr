@@ -31,8 +31,6 @@ An introduction to SQLite - the robust, lightweight, portable, relational databa
 ---
 ## SQLite seems to be on your side
 ```
-sqlite> .open C:\Users\jack\Documents\foo.db
-Error: unable to open database "C:UsersjackDocumentsoo.db": unable to open database file
 sqlite> .open C:/Users/jack/Documents/foo.db
 sqlite> CREATE TABLE foo (
    ...>   id BIGSERIAL PRIMARY KEY,
@@ -41,16 +39,17 @@ sqlite> CREATE TABLE foo (
    ...>   value_3 CHARACTER(10),
    ...>   value_4 JSONB
    ...> );
-sqlite> INSERT INTO foo (value_1, value_2, value_3, value_4) VALUES (5556593, 3.141592635589, "ASDF asdf.", '{"foo": "bar", "baz": 12345}');
+sqlite> INSERT INTO foo
+   ...> (value_1, value_2, value_3, value_4)
+   ...> VALUES (5556593, 3.141592635589, "ASDF asdf.", '{"foo": "bar", "baz": 12345}');
 sqlite> SELECT * FROM foo;
 |5556593|3.141592635589|ASDF asdf.|{"foo": "bar", "baz": 12345}
 ```
-@[1-2]cmd.exe may not be on your side
-@[3]Create a database that doesn't yet exist
-@[4-10]Create a table. 
-@[11]Put some stuff in it.
+@[1]Create a database that doesn't yet exist
+@[2-8]Create a table. 
+@[9-11]Put some stuff in it.
 @[12-13]Get the stuff out.
-@[9](SQLite doesn't have a JSONB format)
+@[7](SQLite doesn't have a JSONB format)
  
 ---
 ## Reasons to use SQLite
