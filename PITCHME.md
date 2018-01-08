@@ -8,8 +8,7 @@ An introduction to SQLite - the robust, lightweight, portable, relational databa
 - serverless
 - contained in a single file
 - based on a small, reliable C library
-- backwards compatible
-- In cars. 
+- in cars. 
 
 ---
 ## WHY is it in cars?
@@ -53,7 +52,7 @@ sqlite> SELECT * FROM foo;
  
 ---
 ## Reasons to use SQLite
-If you put some data in XML/CSV/Excel/ACCESS and then:
+If you put some data in XML/CSV/Excel/Access and then:
  - Send the data to someone
  - Throw it away after you've finished with it
  - Make a backup of today's version.
@@ -67,7 +66,7 @@ If you have data in
  - JSON
  - XML
 
-and you want to add references or IDs to reduce repetition between subobjects, or do joins across different files, you should just cut your losses and install SQLite.
+and you want to add references or IDs to reduce repetition between subobjects, or do joins across different files, you should cut your losses and install SQLite.
 
 ---
 ## Reasons to use SQLite? III
@@ -96,5 +95,5 @@ If you are creating a custom file format for your application to write to, you s
  - https://gitpitch.com/ GitPitch - how I made this talk
  
 
-#### Thanks to Robert Hardy for setting up Full Stack Quants
+#### Thanks to Robert Hardy for Full Stack Quants
 
