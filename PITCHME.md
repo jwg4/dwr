@@ -7,28 +7,24 @@ An introduction to SQLite - the robust, lightweight, portable, relational databa
 - transactional, relational
 - serverless
 - contained in a single file
-- supported by almost every language
 - based on a small, reliable C library
 - backwards compatible
-
----
-## WHERE is it installed?
- - In cars. 
+- In cars. 
 
 ---
 ## WHY is it in cars?
-- don't choose Microsoft SQL server - your car doesn't have that much RAM.
-- don't even choose postgresql - don't want to configure shared_buffer on a car.
-- don't choose XML - harder to read, harder to structure data.
-- don't choose a custom binary format - guys in garages want to write to it.
+- Any amount of data can be structured.
+- Performs OK on embedded systems.
+- Almost 0 performance overhead.
+- People in garages want to write to it.
+- Don't want to configure `shared_buffer_size` on a car.
 
 ---
 ## HOW do I use SQLite?
  - From any programming language
- - module in core Python
- - using a command line interface
- - by multiple processes at once
- - anyone who can read or write to your file
+ - Python without installing anything
+ - command line tool
+ - across network file systems, etc.
  - with Datasette - an awesome project to wrap SQLite database with REST APIs
  
 ---
@@ -56,7 +52,7 @@ sqlite> SELECT * FROM foo;
 @[9](SQLite doesn't have a JSONB format)
  
 ---
-## WHEN should I use SQLite?
+## Reasons to use SQLite
 If you put some data in XML/CSV/Excel/ACCESS and then:
  - Send the data to someone
  - Throw it away after you've finished with it
@@ -65,7 +61,7 @@ If you put some data in XML/CSV/Excel/ACCESS and then:
 you should use SQLite.
 
 ---
-## WHEN should I use SQLite? II
+## Reasons to use SQLite? II
 If you have data in 
  - YAML
  - JSON
@@ -74,7 +70,7 @@ If you have data in
 and you want to add references or IDs to reduce repetition between subobjects, or do joins across different files, you should just cut your losses and install SQLite.
 
 ---
-## WHEN should I use SQLite? III
+## Reasons to use SQLite? III
 If you create any kind of SQL database and
  - copy all the data from another SQL database
  - write the whole database to a file
@@ -83,7 +79,7 @@ If you create any kind of SQL database and
 you should use SQLite.
 
 ---
-## WHEN should I use SQLite? IV
+## Reasons to use SQLite? IV
 
 If you are creating a custom file format for your application to write to, you should use SQLite
 
